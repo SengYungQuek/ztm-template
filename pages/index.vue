@@ -20,7 +20,7 @@
     <p style="text-align: center" class="mt-5">
       <i
         >A Place to turn your <b>ideas</b> into
-        <a href="https://fishcate.com/"
+        <a href="https://fishcate.com/jobs/salary/"
           ><b><u>REALITY</u></b></a
         >...</i
       >
