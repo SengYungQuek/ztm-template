@@ -18,7 +18,12 @@
     />
     <h1 style="text-align: center" class="text-5xl">Welcome to <b>FUN LEARN</b></h1>
     <p style="text-align: center" class="mt-5">
-      <i>A Place to turn your <b>ideas</b> into <b>REALITY</b>...</i>
+      <i
+        >A Place to turn your <b>ideas</b> into
+        <a href="https://fishcate.com/"
+          ><b><u>REALITY</u></b></a
+        >...</i
+      >
     </p>
     <p style="text-align: center" class="mt-5">
       <i>You can make this world a better place by...</i
