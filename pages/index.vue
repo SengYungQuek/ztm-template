@@ -21,14 +21,14 @@
       <i
         >A Place to turn your <b>ideas</b> into
         <a href="https://fishcate.com/jobs/salary/"
-          ><b><u>REALITY</u></b></a
+          ><b style="color: blue; font-size: 25px"><u>REALITY</u></b></a
         >...</i
       >
     </p>
     <p style="text-align: center" class="mt-5">
       <i>You can make this world a better place by...</i
       ><a href="https://fishcate.com/"
-        ><b><u>SHARING</u></b>
+        ><b style="color: blue; font-size: 25px"><u>SHARING</u></b>
       </a>
     </p>
   </div>
