@@ -35,7 +35,7 @@
             width="300"
             height="300"
             alt="Study Photo"
-            class="center"
+            class="center animate-bounce"
           />
         </center>
         <h1 style="text-align: center" class="text-5xl font-roboto pt-5">
@@ -65,6 +65,77 @@
       <button class="font-oswald uppercase bg-blue-500 text-white text-center py-5 px-8">
         Any Ideas to Share?
       </button>
+    </div>
+    <h1 style="" class="text-2xl font-roboto pt-5">Resources Available:</h1>
+    <div id="courses" class="grid grid-cols-4 text-lg font-oswald">
+      <div id="Courses-col1">
+        <img
+          src="Accounting.jfif"
+          alt="Accounting"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+        <img
+          src="Investment.jfif"
+          alt="Inestment"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+        <img
+          src="Excel.png"
+          alt="Excel"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+      </div>
+      <div id="Courses-col2">
+        <img
+          src="Branding.jfif"
+          alt="Branding"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+        <img
+          src="Maths.jfif"
+          alt="Maths"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+        <img
+          src="PowerBI.png"
+          alt="PowerBI"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+      </div>
+      <div id="Courses-col3">
+        <img
+          src="Coding.jfif"
+          alt="Coding"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+        <img
+          src="OnlineMarketing.jfif"
+          alt="OnlineMarketing"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+      </div>
+      <div id="Courses-col4">
+        <img
+          src="Cooking.jfif"
+          alt="Cooking"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+        <img
+          src="Economics.jfif"
+          alt="Economics"
+          style="width: 400px; height: 200px"
+          class="mt-1"
+        />
+      </div>
     </div>
   </div>
 </template>
