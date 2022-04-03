@@ -56,7 +56,7 @@
       <br />
       <br />
       <button
-        class="font-oswald uppercase bg-blue-400 text-white text-center rounded text-3xl bottom-6 border-8 border-blue-400"
+        class="font-oswald uppercase bg-blue-400 text-white text-center rounded text-3xl bottom-6 border-8 border-blue-400 animate-pulse"
       >
         Any Ideas to Share?
       </button>
