@@ -57,12 +57,13 @@
         </p>
       </div>
     </div>
-    <div id="section-1" class="text-center bg-[url('/ShareImage.jpg')] pb-60 bg-cover">
-      <h1 class="font-robot font light text-2xl text-center px-20 py-5">
-        Knowledge is powerful. It's much more powerful if you are willing to share this
-        with others. Please feel free to share your ideas with others
-      </h1>
-      <button class="font-oswald uppercase bg-blue-500 text-white text-center py-5 px-8">
+    <div
+      id="section-1"
+      class="text-center bg-[url('/ShareImage.jpg')] pb-20 bg-cover bg-center"
+    >
+      <h1>.</h1>
+      <h1>.</h1>
+      <button class="font-oswald uppercase bg-blue-400 text-white text-center py-5 px-10">
         Any Ideas to Share?
       </button>
     </div>
