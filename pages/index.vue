@@ -1,9 +1,9 @@
 <template>
   <div id="Main">
-    <div id="header" class="bg-[url('/hero-bg.jpg')] pt-5">
-      <div id="menu" class="grid-grid-cols-2">
+    <div id="header" class="bg-[url('/hero-bg.jpg')] pt-2">
+      <div id="menu" class="grid grid-cols-2">
         <div id="menu-left">
-          <img src="ideaLogo.png" class="mt-1 float-left w-[100px] y-100[px]" alt="" />
+          <img src="ideaLogo.png" class="float-left w-[100px] y-100[px]" alt="" />
         </div>
         <div id="menu-right">
           <ul
@@ -65,31 +65,22 @@
       <br />
       <br />
     </div>
-    <h1 style="" class="text-2xl font-roboto pt-5 underline">
-      <b>Resources Available:</b>
-    </h1>
-    <div id="courses" class="grid grid-cols-4 text-lg font-oswald">
-      <div id="Courses-col1">
-        <img src="Accounting.jfif" alt="Accounting" class="mt-1 h-[200px] w-[400px]" />
-        <img src="Investment.jfif" alt="Inestment" class="mt-1 h-[200px] w-[400px]" />
-        <img src="Excel.png" alt="Excel" class="mt-1 h-[200px] w-[400px]" />
-      </div>
-      <div id="Courses-col2">
-        <img src="Branding.jfif" alt="Branding" class="mt-1 h-[200px] w-[400px]" />
-        <img src="Maths.jfif" alt="Maths" class="mt-1 h-[200px] w-[400px]" />
-        <img src="PowerBI.png" alt="PowerBI" class="mt-1 h-[200px] w-[400px]" />
-      </div>
-      <div id="Courses-col3">
-        <img src="Coding.jfif" alt="Coding" class="mt-1 h-[200px] w-[400px]" />
-        <img
-          src="OnlineMarketing.jfif"
-          alt="OnlineMarketing"
-          class="mt-1 h-[200px] w-[400px]"
-        />
-      </div>
-      <div id="Courses-col4">
-        <img src="Cooking.jfif" alt="Cooking" class="mt-1 h-[200px] w-[400px]" />
-        <img src="Economics.jfif" alt="Economics" class="mt-1 h-[200px] w-[400px]" />
+    <div id="section-3" class="text-center">
+      <h2 class="text-6xl font-oswald text-black-500 uppercase font-medium pt-20">
+        Resources Available
+      </h2>
+      <p class="text-gray-500 font-light text-xl my-10">
+        Contributed by working group or students. All the sharing here is <b>FREE</b>.
+      </p>
+      <div id="courses" class="grid grid-cols-2 px-40 gap-5">
+        <div id="left-item-column">
+          <Item />
+          <Item />
+        </div>
+        <div id="right-item-column">
+          <Item />
+          <Item />
+        </div>
       </div>
     </div>
   </div>
