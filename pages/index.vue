@@ -70,16 +70,36 @@
         Resources Available
       </h2>
       <p class="text-gray-500 font-light text-xl my-10">
-        Contributed by working group or students. All the sharing here is <b>FREE</b>.
+        Contributed by working group/hobbyist. All the sharing here is <b>FREE</b>.
       </p>
       <div id="courses" class="grid grid-cols-2 px-40 gap-5">
         <div id="left-item-column">
-          <Item />
-          <Item />
+          <Item
+            image="Excel.png"
+            title="Microsoft Excel"
+            description="Power query, array formula and other common used formulas."
+            viewtag="Clik to View"
+          />
+          <Item
+            image="PowerBI.png"
+            title="Power BI"
+            description="Business intelliegence tool for effective data visualization."
+            viewtag="Clik to View"
+          />
         </div>
         <div id="right-item-column">
-          <Item />
-          <Item />
+          <Item
+            image="OnlineMarketing.jfif"
+            title="Online Marketing"
+            description="SEO, SEM, Social Media Marketing, Email Marketing etc"
+            viewtag="Clik to View"
+          />
+          <Item
+            image="Cooking.jfif"
+            title="Cooking"
+            description="Cooking basis you should know."
+            viewtag="Clik to View"
+          />
         </div>
       </div>
     </div>
