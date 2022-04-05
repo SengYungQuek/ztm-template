@@ -77,13 +77,13 @@
           <Item
             image="Excel.png"
             title="Microsoft Excel"
-            description="Power query, array formula and other common used formulas."
+            description="Power query and other common used formulas."
             viewtag="Clik to View"
           />
           <Item
             image="PowerBI.png"
             title="Power BI"
-            description="Business intelliegence tool for effective data visualization."
+            description="BI tool for effective data visualization."
             viewtag="Clik to View"
           />
         </div>
