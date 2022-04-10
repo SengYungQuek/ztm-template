@@ -4,7 +4,7 @@
       <img
         :src="'/' + item.image"
         alt=""
-        class="border-border-gray p-5 w-[700] h-[600px]"
+        class="border-border-gray p-5 w-[700] h-[300px]"
       />
     </div>
     <h4 class="font-oswald uppercase text-2xl mt-5">{{ item.name }}</h4>
