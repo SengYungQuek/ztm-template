@@ -1,64 +1,35 @@
 {
-  "appetizers": [
-    {
-      "name":"Mushroom Fries",
-      "description":"Portabella Mushroom Slices bread crumbed and deep fried. Served w/ our signature Red Sauce.",
-      "price": 14.50
-    },
-    {
-      "name": "Nacho Libre",
-      "description": "Crunchy Corn chips topped with Jalapenos, Cheese Sauce, tangy Salsa. A great starter to any meal!",
-      "price": 12.00
-    },
-    {
-      "name": "Popcorn Chicken",
-      "description": "Bite-sized Fried Chicken served with Cheese Sauce with a twist of lime. Goes well with Salsa too!",
-      "price": 10.50
-    }
-  ],
   "burgers": [
     {
-      "name": "Crispy Chicken",
-      "image":"crispy-chicken.jpg",
-      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
-      "price": 11.99
+      "name": "Power BI Intro",
+      "image":"PowerBIIntro.jfif",
+      "description": "Basic Intro of Power BI. Transform data from unclean to clean format.",
+      "Period": "2022-May-20 9pm"
     },
     {
-      "name": "Ultimate Bacon",
-      "image":"ultimate-bacon.jpg",
-      "description": "House beef patty, cheddar cheese, smokey bacon, onion, mustard",
-      "price": 14.99
+      "name": "Basic Excel Formula",
+      "image":"ExcelFormula.jfif",
+      "description": "Basic Excel Training. Suitable for fresh grad. ",
+      "Period": "2022-May-20 9pm"
     },
     {
-      "name": "Baa-Baa Black Sheep",
-      "image":"baa-baa.jpg",
-      "description": "Bacon, lettuce, tomato, onion, mayo, pickles, coleslaw",
-      "price": 15.75
+      "name": "Google Sheet Intro",
+      "image":"GoogleSheetTutorial.jpg",
+      "description": "Intro of google sheet and basic formula available",
+      "Period": "2022-May-20 9pm"
     },
     {
-      "name": "Double Burger",
-      "image":"double-burger.jpg",
-      "description": "2 beef patties, cheddar cheese, mustard, pickles, tomatoes",
-      "price": 15.35
+      "name": "Accounting Beginner",
+      "image":"AccountingPractical.jpg",
+      "description": "For Fresh Grad. Sharing of commonly used formula and best practice",
+      "Period": "2022-May-20 9pm"
     },
     {
-      "name": "Messy Beauty",
-      "image":"crispy-chicken.jpg",
-      "description": "Beef patty topped with lettuce, Honey Mustard and a Sunny Side Up Egg.",
-      "price": 23.00
-    },
-    {
-      "name": "Rosy Business",
-      "image":"crispy-chicken.jpg",
-      "description": "Beef patty topped with a Crispy Hash Brown covered with Rose Syrup.",
-      "price": 21.00
-    },
-    {
-      "name": "Old Fashion",
-      "image":"crispy-chicken.jpg",
-      "description": "Classic cheeseburger with a grilled beef / chicken patty.",
-      "price": 18.00
-    }    
+      "name": "3 minutes Cooking",
+      "image":"BasicCooking.jpg",
+      "description": "Teach you cook some basic stuff in 3 minutes. Applicable for all",
+      "Period": "2022-May-20 9pm"
+    }
   ]
 }
 
