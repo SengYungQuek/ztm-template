@@ -6,11 +6,12 @@
           <img src="ideaLogo.png" class="w-[150px]" alt="" />
         </div>
         <div id="menu-right">
-          <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
+          <ul class="grid grid-cols-5 text-lg font-oswald text-white uppercase pt-5">
             <li>About Us</li>
-            <li>Knowledge Hub</li>
-            <li>Coming Events</li>
+            <NuxtLink to="/menu">Menu</NuxtLink>
+            <li>Locations</li>
             <li>Contacts</li>
+            <NuxtLink to="/cart">Cart {{ $store.getters.totalItems }}</NuxtLink>
           </ul>
         </div>
       </div>

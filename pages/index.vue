@@ -102,6 +102,34 @@
           />
         </div>
       </div>
+      <div
+        class="grid grid-cols-12 font-oswald uppercase text-4xl text-black-800 px-40 gap-5"
+      >
+        <div
+          class="col-span-5 bg-[url('/study.jpg')] bg-cover bg-center pl-20 pb-10 pt-10"
+        >
+          <h4>Claim <br />Your Free</h4>
+          <h4>Courses</h4>
+          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">
+            Claim now
+          </button>
+        </div>
+        <div
+          class="col-span-7 bg-[url('/ExcelExpert.jfif')] bg-cover bg-center text-right pr-10 pt-10"
+        >
+          <h4>Excel</h4>
+          <h4>Advanced <br />Tutorial</h4>
+          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">
+            Claim now
+          </button>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 px-40 mt-5 gap-5">
+        <img src="offer-1.jpg" alt="" /><img src="offer-2.jpg" alt="" /><img
+          src="offer-3.jpg"
+          alt=""
+        />
+      </div>
     </div>
   </div>
 </template>
