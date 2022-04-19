@@ -86,7 +86,7 @@ export default {
     },
     submitOrder() {
       this.$axios
-        .post('/netlify/functions/email', {
+        .post('/.netlify/functions/email', {
           email: document.getElementById('email').value,
           orders: this.$store.state.orders,
         })
