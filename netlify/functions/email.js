@@ -36,10 +36,11 @@ exports.handler = async function(event, context) {
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: "Email sent successfully"
+        message: 'Email sent successfully'
       }),
     };
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log('Error sending email', error);
   }
 };
