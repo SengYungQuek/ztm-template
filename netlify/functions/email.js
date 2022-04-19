@@ -1,4 +1,4 @@
-const nodemailer = require("nodemailer");
+const nodemailer = require('nodemailer');
 
 exports.handler = async function(event, context) {
   const body = JSON.parse(event.body);
@@ -6,7 +6,7 @@ exports.handler = async function(event, context) {
   const orders = body.orders;
 
   let total = 0;
-  let emailContent = "We have received a new order: \n\n";
+  let emailContent = 'We have received a new order: \n\n';
   orders.forEach((order) => {
     emailContent = emailContent + `${order.name} ${order.quantity}\n`;
     total = total + order.quantity;
@@ -17,7 +17,7 @@ exports.handler = async function(event, context) {
   const email = {
     from: 'yungquek@gmail.com',
     to: customerEmail,
-    subject: "New Order Received",
+    subject: 'New Order Received',
     text: emailContent,
   };
 
@@ -26,7 +26,7 @@ exports.handler = async function(event, context) {
     port: 25,
     secure: true,
     auth: {
-      user:'apiKey',
+      user: 'apiKey',
       pass: process.env.MailJetAPIKey
     }
   });
