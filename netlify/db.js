@@ -1,6 +1,6 @@
 const admin = require('firebase-admin');
-const { initializeApp, cert} = require('firebase-admin/app');
-const { getFirestore } = require("firebase-admin/firestore");
+const { initializeApp, cert } = require('firebase-admin/app');
+const { getFirestore } = require('firebase-admin/firestore');
 const serviceAccount = JSON.parse(process.env.firebaseCredential);
 
 // eslint-disable-next-line require-await
@@ -30,6 +30,7 @@ exports.handler = async function (event, context) {
       }),
     };
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log('Error adding document', error);
   }
 };
