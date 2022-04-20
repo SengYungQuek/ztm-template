@@ -40,7 +40,6 @@ exports.handler = async function (event, context) {
       }),
     };
   } catch (error) {
-    // eslint-disable-next-line no-console
     console.log('Error sending email', error);
   }
 };
