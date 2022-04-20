@@ -42,7 +42,7 @@ export default {
     '@nuxtjs/firebase'
   ],
 
-  firebaseConfig: {
+  firebase: {
     config: {
       piKey: 'AIzaSyCMhXg3nxvHTDDJPumZDg679NUPUWKnOWE',
       authDomain: 'ztmburger-47f4f.firebaseapp.com',
