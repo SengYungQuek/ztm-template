@@ -44,7 +44,7 @@ export default {
 
   firebase: {
     config: {
-      piKey: 'AIzaSyCMhXg3nxvHTDDJPumZDg679NUPUWKnOWE',
+      apiKey: 'AIzaSyCMhXg3nxvHTDDJPumZDg679NUPUWKnOWE',
       authDomain: 'ztmburger-47f4f.firebaseapp.com',
       projectId: 'ztmburger-47f4f',
       storageBucket: 'ztmburger-47f4f.appspot.com',
