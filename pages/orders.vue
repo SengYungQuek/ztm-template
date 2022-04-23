@@ -95,9 +95,16 @@ export default {
 
   methods: {
     readOrders() {
-      this.$axios.get('/.netlify/functions/readorders').then((response) => {
-        this.orders = response.data;
-      });
+      this.$axios
+        .get('/.netlify/functions/readorders', {
+          Headers: {
+            // eslint-disable-next-line no-template-curly-in-string
+            Authorization: `Bearer ${this.user.token.access_token}`,
+          },
+        })
+        .then((response) => {
+          this.orders = response.data;
+        });
     },
 
     login() {
