@@ -5,6 +5,17 @@ const serviceAccount = JSON.parse(process.env.firebaseCredential);
 
 // eslint-disable-next-line require-await
 exports.handler = async function (event, context) {
+  const user = context.clientContext.user;
+  // eslint-disable-next-line eqeqeq
+  if (user.email != 'yungquek@gmail.com') {
+    return {
+      statusCode: 401,
+      body: JSON.stringify({
+        message: 'You are not allowed to retrieve orders',
+      }),
+    };
+  }
+
   let app;
   if (admin.apps.length === 0) {
     app = initializeApp({
