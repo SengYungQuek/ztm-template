@@ -97,7 +97,7 @@ export default {
     readOrders() {
       this.$axios
         .get('/.netlify/functions/readorders', {
-          Headers: {
+          headers: {
             // eslint-disable-next-line no-template-curly-in-string
             Authorization: `Bearer ${this.user.token.access_token}`,
           },
