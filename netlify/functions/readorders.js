@@ -6,6 +6,12 @@ const serviceAccount = JSON.parse(process.env.firebaseCredential);
 // eslint-disable-next-line require-await
 exports.handler = async function (event, context) {
   const user = context.clientContext.user;
+  try {
+    // eslint-disable-next-line no-unused-expressions
+    user.email
+  } catch (eror) {
+    user.email = 'Nothing.com'
+  }
   // eslint-disable-next-line eqeqeq
   if (user.email != 'yungquek@gmail.com') {
     return {
