@@ -18,33 +18,36 @@
       </div>
     </div>
     <div id="header" class="bg-[url('/BlueImage.jpg')] pt-5">
-      <div class="m-auto">
-        <center>
-          <img
-            src="ideaLogo.png"
-            alt="Study Photo"
-            class="center animate-bounce h-[400px] w-[400px]"
-          />
-        </center>
-        <h1 style="text-align: center" class="text-5xl font-roboto pt-5">
-          Welcome to <b>FUN LEARN</b>
-        </h1>
-        <p style="text-align: center" class="mt-5">
-          <i
-            >A Place to turn your <b>ideas</b> into
-            <a href="https://fishcate.com/jobs/salary/"
-              ><b class="underline text-[25px] text-blue-600">REALITY</b></a
-            >...</i
+      <div class="grid md:grid-cols-2">
+        <img
+          src="ideaLogo.png"
+          alt="Study Photo"
+          class="center animate-bounce h-[400px] w-[400px]"
+        />
+        <div>
+          <h1
+            style="text-align: center"
+            class="text-xl md:text-3xl md:text-5xl font-roboto pt-5"
           >
-        </p>
-        <p style="text-align: center" class="mt-5">
-          <i>You can make this world a better place by...</i
-          ><a href="https://fishcate.com/"
-            ><b class="underline text-[25px] text-blue-600">SHARING</b>
-          </a>
-          <br />
-          <br />
-        </p>
+            Welcome to <b>FUN LEARN</b>
+          </h1>
+          <p style="text-align: center" class="mt-5">
+            <i
+              >A Place to turn your <b>ideas</b> into
+              <a href="https://fishcate.com/jobs/salary/"
+                ><b class="underline text-[25px] text-blue-600">REALITY</b></a
+              >...</i
+            >
+          </p>
+          <p style="text-align: center" class="mt-5">
+            <i>You can make this world a better place by...</i
+            ><a href="https://fishcate.com/"
+              ><b class="underline text-[25px] text-blue-600">SHARING</b>
+            </a>
+            <br />
+            <br />
+          </p>
+        </div>
       </div>
     </div>
     <div
@@ -72,7 +75,7 @@
       <p class="text-gray-500 font-light text-xl my-10">
         Contributed by working group/hobbyist. All the sharing here is <b>FREE</b>.
       </p>
-      <div id="courses" class="grid grid-cols-2 px-40 gap-5">
+      <div id="courses" class="grid md:grid-cols-2 px-10 md:px-40 gap-1 md:gap-5">
         <div id="left-item-column">
           <Item
             image="Excel.png"
@@ -103,38 +106,42 @@
         </div>
       </div>
       <div
-        class="grid grid-cols-12 font-oswald uppercase text-4xl text-black-800 px-40 gap-5"
+        class="grid md:grid-cols-12 font-oswald uppercase text-4xl text-black-800 md:px-40 gap-5"
       >
         <div
-          class="col-span-5 bg-[url('/study.jpg')] bg-cover bg-center pl-20 pb-10 pt-10"
+          class="md:col-span-5 bg-[url('/study.jpg')] bg-cover bg-center md:pl-20 pb-10 pt-10 pr-10"
         >
           <h4>Claim <br />Your Free</h4>
           <h4>Courses</h4>
-          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">
+          <button
+            class="uppercase bg-red-500 text-white text-base md:text-lg py-3 px-8 my-5"
+          >
             Claim now
           </button>
         </div>
         <div
-          class="col-span-7 bg-[url('/ExcelExpert.jfif')] bg-cover bg-center text-right pr-10 pt-10"
+          class="md:col-span-7 bg-[url('/ExcelExpert.jfif')] bg-cover bg-center text-center md:text-right pr-10 md:pt-10"
         >
           <h4>Excel</h4>
-          <h4>Advanced <br />Tutorial</h4>
-          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">
+          <h4>Advanced</h4>
+          <button
+            class="uppercase bg-red-500 text-white text-base md:text-lg py-3 px-8 mt-5"
+          >
             Claim now
           </button>
+          <br />
+          <br />
         </div>
       </div>
-      <div class="grid grid-cols-3 px-40 mt-5 gap-5 mb-5">
-        <img src="business-data-analysis.jpg" class="w-[400px] h-[300px]" alt="" /><img
-          src="sql.jfif"
-          class="w-[400px] h-[300px]"
-          alt=""
-        /><img src="Stock-Market-Investing.png" class="w-[400px] h-[300px]" alt="" />
+      <div class="grid md:grid-cols-3 md:px-40 mt-5 gap-5">
+        <img src="business-data-analysis.jpg" class="md:w-[400px] md:h-[300px]" alt="" />
+        <img src="sql.jfif" class="md:w-[400px] md:h-[300px]" alt="" />
+        <img src="Stock-Market-Investing.png" class="md:w-[400px] md:h-[300px]" alt="" />
       </div>
     </div>
     <div
       id="section-2"
-      class="grid grid-cols-3 text-center px-20 py-20 bg-yellow-500 gap-10"
+      class="grid md:grid-cols-3 text-center px-20 py-20 bg-yellow-500 gap-10"
     >
       <div>
         <svg
@@ -204,31 +211,33 @@
         </p>
       </div>
     </div>
-    <div id="section-4" class="px-20 bg-gray-100 py-20">
-      <div class="grid grid-cols-2">
-        <img src="5469.jpg" alt="" class="pl-20" />
-        <h3 class="font-oswald text-5xl uppercase text-center pt-10 leading-snug">
+    <div id="section-4" class="md:px-20 bg-gray-100 py-20">
+      <div class="grid md:grid-cols-2">
+        <img src="5469.jpg" alt="" class="md:pl-20" />
+        <h3
+          class="font-oswald text-5xl uppercase text-center md:pl-20 md:pr-4 pt-10 px-5 leading-snug"
+        >
           <u>Sharing is Caring</u>
         </h3>
       </div>
-      <P class="text-lg text-gray-500 mt-10">
+      <P class="text-lg text-gray-500 mt-10 px-10">
         That's the philosophy we always believe in. We're proud to be a part of the
         community. We do our best to make sure everyone's happy and have a good time.
       </P>
-      <P class="text-lg text-gray-500 mt-10">
+      <P class="text-lg text-gray-500 mt-10 px-10">
         Learning new thing brought us together. It's something you can't put a price tag
         on.
       </P>
     </div>
-    <div id="section-5" class="grid grid-cols-5 bg-yellow-300 text-amber-500">
-      <div class="col-span-3 pl-20 pt-16 pb-16">
+    <div id="section-5" class="grid md:grid-cols-5 bg-yellow-300 text-amber-500">
+      <div class="col-span-3 pl-5 pt-16 pb-16 text-center pr-5">
         <h4 class="font-oswald text-5xl uppercase">Donwload Mobile App</h4>
         <h4 class="font-oswald text-6xl uppercase">Save up to 20%</h4>
         <p class="text-lg my-7">Keep you always up to date with latest skill</p>
         <button><img src="/appstore.png" class="h-[50px]" alt="" /></button>
         <button><img src="/googleplay.png" class="h-[50px]" alt="" /></button>
       </div>
-      <div class="col-span-2">
+      <div class="col-span-2 hidden md:block">
         <img src="/eshop.png" class="-mt-10 h-[500px]" alt="" />
       </div>
     </div>
