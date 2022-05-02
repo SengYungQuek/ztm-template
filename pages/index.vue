@@ -1,26 +1,33 @@
 <template>
   <div id="Main">
-    <div id="header" class="bg-[url('/hero-bg.jpg')] pt-2">
+    <div
+      id="header"
+      class="bg-[url('/FunLearnBackGround.jpg')] pt-2 bg-cover bg-center Static"
+    >
       <div id="menu" class="grid grid-cols-2">
         <div id="menu-left">
-          <img src="ideaLogo.png" class="float-left w-[100px] y-100[px]" alt="" />
+          <img
+            src="ideaLogo.png"
+            class="float-left w-[100px] y-100[px] center animate-bounce"
+            alt=""
+          />
         </div>
         <div id="menu-right">
           <ul
-            class="grid grid-cols-4 text-lg font-oswald text-white uppercase mt-99 pb-5 pt-5"
+            class="grid grid-cols-4 text-lg font-oswald text-black uppercase mt-99 pb-5 pt-5"
           >
-            <li>About Us</li>
-            <li>Knowledge Hub</li>
+            <NuxtLink to="/about">About Us</NuxtLink>
             <li>Coming Events</li>
+            <li>Tutorial</li>
             <li>Contacts</li>
           </ul>
         </div>
       </div>
     </div>
-    <div id="header" class="bg-[url('/BlueImage.jpg')] pt-5">
+    <div id="header" class="bg-[url('/0zP3pe.jpg')] pt-5 bg-cover bg-center Static">
       <div class="grid md:grid-cols-2">
         <img
-          src="ideaLogo.png"
+          src="read.png"
           alt="Study Photo"
           class="center animate-bounce h-[400px] w-[400px]"
         />
@@ -33,14 +40,14 @@
           </h1>
           <p style="text-align: center" class="mt-5">
             <i
-              >A Place to turn your <b>ideas</b> into
+              ><b> A Place to turn your ideas into </b>
               <a href="https://fishcate.com/jobs/salary/"
                 ><b class="underline text-[25px] text-blue-600">REALITY</b></a
               >...</i
             >
           </p>
           <p style="text-align: center" class="mt-5">
-            <i>You can make this world a better place by...</i
+            <i> <b> You can make this world a better place by... </b></i
             ><a href="https://fishcate.com/"
               ><b class="underline text-[25px] text-blue-600">SHARING</b>
             </a>
@@ -238,7 +245,7 @@
         <button><img src="/googleplay.png" class="h-[50px]" alt="" /></button>
       </div>
       <div class="col-span-2 hidden md:block">
-        <img src="/eshop.png" class="-mt-10 h-[500px]" alt="" />
+        <img src="/teacher.png" class="-mt-10 h-[500px]" alt="" />
       </div>
     </div>
   </div>
