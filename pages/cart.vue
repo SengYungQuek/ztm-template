@@ -9,8 +9,6 @@
           <ul class="grid grid-cols-5 text-lg font-oswald text-white uppercase pt-5">
             <NuxtLink to="/about">About Us</NuxtLink>
             <NuxtLink to="/menu">Menu</NuxtLink>
-            <li>Locations</li>
-            <li>Contacts</li>
             <NuxtLink to="/cart">Cart</NuxtLink>
           </ul>
         </div>
