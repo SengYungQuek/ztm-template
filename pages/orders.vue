@@ -10,7 +10,6 @@
             <NuxtLink to="/about">About Us</NuxtLink>
             <NuxtLink to="/menu">Menu</NuxtLink>
             <li>Locations</li>
-            <li>Contacts</li>
             <NuxtLink to="/cart">Cart</NuxtLink>
           </ul>
         </div>
